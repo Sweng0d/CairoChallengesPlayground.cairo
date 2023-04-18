@@ -1,13 +1,3 @@
-// The following code is missing the function `add1`.
-// 1. Click on "Run" to see the error.
-// 2. Write the function `add1`, based on `add1_square`, so
-//    that the program terminates successfully.
-//
-// Note that `add1` doesn't have to call other functions.
-//
-// You can learn more about functions [here](https://www.cairo-lang.org/docs/how_cairo_works/functions.html).
-
-
 func add1(y:felt) -> (z:felt){
     return(z=y+1);
 }
