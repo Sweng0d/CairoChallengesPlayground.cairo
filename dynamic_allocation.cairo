@@ -34,7 +34,7 @@ func sqr_array(array: felt*, length: felt) -> (new_array: felt*) {
     let (local new_array) = alloc();
     _inner_sqr_array(array=array, new_array=new_array, length=length);
     
-    return(new_array); 
+    return(new_array = new_array); 
 }
 
 func main{output_ptr: felt*}() {
