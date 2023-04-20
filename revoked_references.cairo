@@ -21,7 +21,7 @@
 //      Before this line, `x` refers to the return value.
 //      After that, `x` refers to the local variable.
 // 6. A shorter syntax is "let (local x) = foo(10);" which achieves the same goal.
-//    Try it!
+//    Try it!!!
 
 %builtins output
 
